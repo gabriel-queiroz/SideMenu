@@ -6,10 +6,10 @@ export const SideMenuContainer = styled.div`
     width: 0px;
     background-color: #f45;
     transition: width 100ms linear;
-
+    position: fixed;
     ${props => props.open ? 
 
-    'width: 30%;' +
+    'width: 300px;' +
     'transition : width 100ms linear'
      : null }
 `;
