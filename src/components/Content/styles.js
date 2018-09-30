@@ -5,6 +5,6 @@ export const ContentContainer = styled.main`
    float: right;
    margin: 0 auto;
    background-color: #fff;
-   transition: margin 100ms linear;
+   transition: all 200ms linear;
    margin-left: ${ props => props.open ? ' 300px ':' 0px '};
 `
